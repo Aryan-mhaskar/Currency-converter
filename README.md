@@ -9,7 +9,7 @@ A responsive and user-friendly currency converter built using **React.js and Tai
 
 ## 📸 Screenshot
 
-![alt text](image.png)
+![alt text](./public/image.png)
 
 ## ✨ Features
 
