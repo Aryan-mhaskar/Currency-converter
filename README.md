@@ -3,10 +3,6 @@
 
 A responsive and user-friendly currency converter built using **React.js and Tailwind CSS**. This application allows users to convert currencies using real-time exchange rates fetched from a currency exchange API.
 
-## 🚀 Live Demo
-
-🔗 [View Live Demo](#)
-
 ## 📸 Screenshot
 
 ![alt text](./public/image.png)
