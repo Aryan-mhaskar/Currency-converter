@@ -1,21 +1,147 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💱 Currency Converter
 
-Currently, two official plugins are available:
+A responsive and user-friendly currency converter built using **React.js and Tailwind CSS**. This application allows users to convert currencies using real-time exchange rates fetched from a currency exchange API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 [View Live Demo](#)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![alt text](image.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Currency-converter
-A responsive currency converter built with React.js, Tailwind CSS, and an Exchange Rate API. It allows users to convert currencies in real time, swap currencies, and view updated exchange rates through a simple and user-friendly interface.
->>>>>>> 11bae5ff01efa8655e4eb23ceceadf836b206151
+## ✨ Features
+
+- 🌍 Convert between multiple currencies.
+- 🔄 Swap source and target currencies.
+- 💱 Fetch exchange rates using an API.
+- ⚡ Real-time currency rate updates.
+- 📱 Responsive user interface.
+- 🎨 Modern design using Tailwind CSS.
+- 🧩 Reusable React components.
+- 🪝 Custom React Hook for fetching currency data.
+
+## 🛠️ Technologies Used
+
+- **React.js** – Frontend library for building the user interface.
+- **JavaScript (ES6+)** – Application logic and functionality.
+- **Tailwind CSS** – Styling and responsive design.
+- **Vite** – Development and build tool.
+- **Exchange Rate API** – Fetching currency exchange rates.
+- **React Hooks** – useState, useEffect, and custom hooks.
+
+## 📂 Project Structure
+
+```text
+currency-converter/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Input.jsx
+│   │   └── index.js
+│   │
+│   ├── hooks/
+│   │   └── useCurrencyInfo.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aryan-mhaskar/Currency-converter.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Currency-converter
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in browser
+
+Open the local URL provided by Vite, usually:
+
+```text
+http://localhost:5173/
+```
+
+## 🔄 How It Works
+
+1. Select the source currency.
+2. Enter the amount to convert.
+3. Select the target currency.
+4. Click the **Convert** button.
+5. View the converted amount.
+6. Use the **Swap** button to switch currencies.
+
+## 🔌 API Used
+
+This project uses the following currency exchange API:
+
+🔗 [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/exchange-api)
+
+### API Endpoint
+
+```javascript
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+```
+
+The currency code is dynamically replaced based on the selected source currency.
+
+## 📚 React Concepts Practiced
+
+- Functional Components
+- Props
+- State Management
+- useState Hook
+- useEffect Hook
+- Custom Hooks
+- API Fetching
+- Conditional Data Handling
+- Component Reusability
+
+## 🔮 Future Improvements
+
+- Add loading indicators.
+- Improve error handling.
+- Add currency search functionality.
+- Display historical exchange rates.
+- Add dark mode.
+- Deploy the application online.
+
+## 👨‍💻 Author
+
+**Aryan Mhaskar**
+
+BSc IT Student | Aspiring Full Stack Developer
+
+- GitHub: [Aryan-mhaskar](https://github.com/Aryan-mhaskar)
+
+## 📄 License
+
+This project is created for educational and learning purposes.
